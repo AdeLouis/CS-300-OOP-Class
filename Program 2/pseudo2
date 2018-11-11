@@ -1,0 +1,22 @@
+Class Name: Odometer
+  This class tracks fuels and mileage for an automotive vehicle
+  Data: num_miles - holds number of miles
+        num_gallons - holds number of gallons used
+        fuel - contains fuel efficiency value in miles per gallons
+
+  Private:
+        get_gallons_based_on_miles_and_efficiency - gets the number of gallons
+                                                    based on miles and efficiency
+
+  Public:
+  Mutator Functions:
+        Odometer - default constructor
+        Odometer - sets miles and gallons. If values already exist, add them
+                      up. It also calculates the fuel efficiency and sets
+                      the value
+        reset_metrics - resets miles and gallons to zero. (Also resets fuel to 0)
+
+  Accessor Functions:
+        get_miles - returns the miles driven
+        get_gallons - returns the number of gallons used
+        get_efficiency - returns the fuel efficiency
