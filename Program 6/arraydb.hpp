@@ -2,7 +2,8 @@
   Louis Gomez
   B343X495
   Program #5
-
+  random information for testing
+  
   This is the template class implementation of the arraydb in class example
 
   Pseudo Code:
